@@ -52,13 +52,13 @@
 	}
 });*/
 
-function loadXMLDoc () 
-{
-	var xmlhttp;
-	if (window.XMLHttpRequest) {
-		xmlhttp=new XMLHttpRequest();
-	} else {
-		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-	}
+// function loadXMLDoc () 
+// {
+// 	var xmlhttp;
+// 	if (window.XMLHttpRequest) {
+// 		xmlhttp=new XMLHttpRequest();
+// 	} else {
+// 		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+// 	}
 
-}
+// }
