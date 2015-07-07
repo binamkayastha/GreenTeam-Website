@@ -1,0 +1,69 @@
+/*div{
+	border: 1px solid black;
+}*/
+*{	
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+h4 {
+	color: darkgreen;
+}
+
+#banner {
+	background-image: url("../background/green_leaves.png");
+	overflow: hidden;
+	font-family: "Josefin Sans", "Joti One", sans-serif;
+	color: lightgreen;
+}	
+
+.test {
+	background-image: url("../background/green_leaves.png");
+	overflow: hidden;
+	color: lightgreen;	
+}
+
+.test2 {
+	padding: 100%;
+}
+
+#Info_Board {
+	background-image: url("../background/light_table.png");
+	color: lightgreen;
+	/*box-shadow: 5px 5px 5px  #888888;*/
+	border: 5px;
+	border-style: inset;
+	border-color: #6F4E37;
+	overflow:hidden;
+}
+
+#PostIt {
+	padding-top: 40px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	background-image: url("../background/postIt_1-pastels.png");
+	/*background-size: 230px 230px;*/ /*Resize the image to approx 70%*/
+	background-size: contain;
+	/*width: 20vw;
+	height:20vw;*/
+	background-repeat: no-repeat;
+	color: black;
+
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+}
+
+.navbar {
+	border-radius: 0;
+}
