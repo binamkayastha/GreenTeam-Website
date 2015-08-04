@@ -24,11 +24,7 @@ h4 {
 	color: lightgreen;	
 }
 
-.test2 {
-	padding: 100%;
-}
-
-#Info_Board {
+#Info_Board_Boarder {
 	background-image: url("../background/light_table.png");
 	color: lightgreen;
 	/*box-shadow: 5px 5px 5px  #888888;*/
@@ -37,20 +33,28 @@ h4 {
 	border-color: #6F4E37;
 	overflow:hidden;
 }
+#Info_Board {
+	/*margin: auto;*/
+}
 
-#PostIt {
+#PostIt { /*goto kis-help-club.appspot.com and figure out how I did members
+	so that I can */
 	padding-top: 40px;
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-bottom: 20px;
 	background-image: url("../background/postIt_1-pastels.png");
 	/*background-size: 230px 230px;*/ /*Resize the image to approx 70%*/
-	background-size: contain;
+	background-size: 220px 220px;
+	width: 220px;
+	height: 220px;
+	/*background-size: contain;*/
 	/*width: 20vw;
 	height:20vw;*/
 	background-repeat: no-repeat;
 	color: black;
-
+	display: inline-block;
+	vertical-align: middle;
 }
 
 
