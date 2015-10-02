@@ -25,7 +25,7 @@ h4 {
 html,body { height:100%; }
 
 #wrapper {
-	background-image: url("../background/behind.png");
+	background-image: url("../background/behind.jpg");
 	background-color:black;
 	min-height: 100%;
 	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
@@ -34,20 +34,20 @@ html,body { height:100%; }
 }
 
 #banner {
-	background-image: url("../background/green_leaves.png");
+	background-image: url("../background/green_leaves.jpg");
 	overflow: hidden;
 	font-family: "Josefin Sans", "Joti One", sans-serif;
 	color: lightgreen;
 }
 
 .test {
-	background-image: url("../background/green_leaves.png");
+	background-image: url("../background/green_leaves.jpg");
 	overflow: hidden;
 	color: lightgreen;
 }
 
 #Info_Board_Boarder {
-	background-image: url("../background/light_table.png");
+	background-image: url("../background/light_table.jpg");
 	color: lightgreen;
 	/*box-shadow: 5px 5px 5px  #888888;*/
 	border: 5px;
@@ -65,7 +65,7 @@ html,body { height:100%; }
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-bottom: 20px;
-	background-image: url("../background/postIt_1-pastels.png");
+	background-image: url("../background/postIt_1-pastels.jpg");
 	/*background-size: 230px 230px;*/ /*Resize the image to approx 70%*/
 	background-size: 220px 220px;
 	width: 220px;
