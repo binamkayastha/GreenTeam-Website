@@ -4,22 +4,38 @@
 *{
 	padding: 0;
 	margin: 0;
-	text-align: center;
+	text-align: center;			/*Centers all the elemetns*/
 	vertical-align: top;
+	font-family: 'Rum Raisin', sans-serif;
+	font-size: 20px;			/*The base font size that determines all the other fontsize.*/
+}
+
+h1 {
+	font-size: 4ex;				/*4 times the base font*/
 }
 
 h2 {
-	font-size: 3em;
+	font-size: 3ex;
 	font-family: 'Inika', bold, serif;
 }
 
 h3 {
+	font-size: 2.34ex;
 	font-family: 'Capriola', sans-serif;
 }
 
 h4 {
+	font-size: 1.80ex;
 	color: darkgreen;
 	font-family: 'Overlock SC', cursive;
+}
+
+h5 {
+	font-size: 1.66ex;
+}
+
+h6 {
+	font-szie: 1.50ex;
 }
 
 html,body { height:100%; }
@@ -37,7 +53,8 @@ html,body { height:100%; }
 	background-image: url("../background/green_leaves.jpg");
 	overflow: hidden;
 	font-family: "Josefin Sans", "Joti One", sans-serif;
-	color: lightgreen;
+	color: white;
+	/*color: lightgreen;*/
 }
 
 .test {
@@ -65,7 +82,7 @@ html,body { height:100%; }
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-bottom: 20px;
-	background-image: url("../background/postIt_1-pastels.jpg");
+	background-image: url("../background/postIt_1-pastels.png");
 	/*background-size: 230px 230px;*/ /*Resize the image to approx 70%*/
 	background-size: 220px 220px;
 	width: 220px;
@@ -80,11 +97,14 @@ html,body { height:100%; }
 }
 
 .imgcenter {
-	display: inline;
+	display: inline;		/*The default value for images are display:block in
+	 							bootstrap. So I overwrote that with
+								display:inline so that the images would still
+								be centered*/
 }
 
 .row {
-	vertical-align: top;
+	vertical-align: top;	/*To align any elements I have in rows*/
 }
 
 
